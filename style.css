@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+header nav{
+    margin: 40px 0 40px 40px;
+}
+header nav a{
+    margin-right: 25px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.88px;
+    line-height: 100%;
+    color: #17233d;
+}
+header nav button{
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: 1px solid #4cb538;
+    background-color: #6fbf44;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+main .logo{
+    display: inline-block;
+    width: 595px;
+    height: 500px;
+    margin-left: 120px;
+}
+section{
+    display: inline-block;
+    margin-left: 40px;
+}
+section h1{
+    font-weight: 700;
+    width: 582px;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    color: #161A49;
+}
+section p{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 25px 0 25px;
+    width: 500px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4b505a;  
+}
+section a{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #6fbf44;
+}
+
+@media (max-width: 450px){
+    
+    header nav a{
+        display: none;
+    }
+    header nav button{
+        position: sticky;
+        left: 225px;
+    }
+    main{
+        height: 80vh;
+        display: block;
+    }
+    main .logo{
+        position: absolute;
+        bottom: -10%;
+        right:8%;
+        display: block;
+        width: 312px;
+        height: 300px;
+        padding: 25px 0;
+
+    }
+    section h1{
+        width: 278px;
+        height: 60px;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    section p{
+        width: 305px;
+        height: 165px;
+        text-align: center;
+    }
+    section a{
+        text-align: center;
+    }
+
+    }
